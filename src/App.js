@@ -1,7 +1,9 @@
+import StyledApp from "./Components/App.styled";
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <StyledApp>Hello World!</StyledApp>
     </div>
   );
 }
