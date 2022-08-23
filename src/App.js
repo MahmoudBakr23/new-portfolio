@@ -1,11 +1,9 @@
-import StyledApp from "./Components/App.styled";
 import Home from "./Components/Home";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{margin: 0}}>
       <Home />
-      <StyledApp>Hello World!</StyledApp>
     </div>
   );
 }
