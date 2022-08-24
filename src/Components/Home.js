@@ -1,14 +1,13 @@
-import { Container } from "./Styles/Home.styled";
-import { ImgContainer } from "./Styles/Home.styled";
+import { ImgContainer, HomeDiv, Container, PorText, NameHeading, SubHeading } from "./Styles/Home.styled";
 
 const  Home = () => {
     return(
         <Container right>
-            <div>
-                <h3>PORTFOLIO</h3>
-                <h1>Mahmoud Bakr</h1>
-                <h2>Full-stack Developer</h2>
-            </div>
+            <HomeDiv>
+                <PorText>PORTFOLIO</PorText>
+                <NameHeading>MAHMOUD BAKR</NameHeading>
+                <SubHeading>FULL STACK DEVELOPER</SubHeading>
+            </HomeDiv>
             <ImgContainer />
         </Container>
     )
