@@ -9,7 +9,6 @@ const Container = styled.div`
     color: white;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 `
 
 const HomeDiv = styled.div`
