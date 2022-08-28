@@ -5,3 +5,13 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.active {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.05rem;
+}
+
+.right {
+    background-image: linear-gradient(to right, #000, #303030, #303030, #303030);
+}

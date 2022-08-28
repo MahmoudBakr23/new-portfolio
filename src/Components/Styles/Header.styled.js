@@ -3,7 +3,6 @@ import styled from "styled-components";
 const HeaderContainer = styled.div`
     padding: 2rem 0;
     margin: 0;
-    background-image: ${props => props.right ? "linear-gradient(to right, #000, #303030, #303030, #303030)" : "linear-gradient(to left, black, #303030, #303030, #303030)"};
 `
 
 const List = styled.ul`
@@ -26,9 +25,9 @@ const ListLink = styled.a`
     color: white;
 `
 
-const Icon = styled.i`
-    background-color: ${props => props.active ? "white" : 'none'};
-    border-radius: ${props => props.active ? "50%" : '0'};
-`
+// const Icon = styled.i`
+//     background-color: ${props => props.active ? "white" : 'none'};
+//     border-radius: ${props => props.active ? "50%" : '0'};
+// `
 
-export { List, ListItem, ListLink, HeaderContainer, Icon }
+export { List, ListItem, ListLink, HeaderContainer }

@@ -1,24 +1,23 @@
-// import { Link } from "react-router-dom";
-import { ListLink, ListItem, List, HeaderContainer, Icon } from "./Styles/Header.styled";
+import { ListLink, ListItem, List, HeaderContainer } from "./Styles/Header.styled";
 
-const Header = () => {
+const Header = ({home, about, edu, work, contact, rightOrLeft}) => {
     return(
-        <HeaderContainer right>
+        <HeaderContainer className={`${rightOrLeft}`}>
             <List>
                 <ListItem>
-                    <ListLink href="/"><Icon className="fa-regular fa-circle" active /></ListLink>
+                    <ListLink href="/"><i className={`fa-regular fa-circle ${home}`} /></ListLink>
                 </ListItem>
                 <ListItem>
-                    <ListLink href="/aboutme"><Icon className="fa-regular fa-circle" /></ListLink>
+                    <ListLink href="/aboutme"><i className={`fa-regular fa-circle ${about}`} /></ListLink>
                 </ListItem>
                 <ListItem>
-                    <ListLink href="/education"><Icon className="fa-regular fa-circle" /></ListLink>
+                    <ListLink href="/education"><i className={`fa-regular fa-circle ${edu}`} /></ListLink>
                 </ListItem>
                 <ListItem>
-                    <ListLink href="/mywork"><Icon className="fa-regular fa-circle" /></ListLink>
+                    <ListLink href="/mywork"><i className={`fa-regular fa-circle ${work}`} /></ListLink>
                 </ListItem>
                 <ListItem>
-                    <ListLink href="/contactme"><Icon className="fa-regular fa-circle" /></ListLink>
+                    <ListLink href="/contactme"><i className={`fa-regular fa-circle ${contact}`} /></ListLink>
                 </ListItem>
             </List>
         </HeaderContainer>

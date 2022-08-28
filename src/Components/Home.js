@@ -1,7 +1,8 @@
 import { ImgContainer, HomeDiv, Container, PorText, NameHeading, SubHeading } from "./Styles/Home.styled";
-
+import Header from "./Header";
 const  Home = () => {
     return(
+        <div>
         <Container right>
             <HomeDiv>
                 <PorText>PORTFOLIO</PorText>
@@ -10,6 +11,8 @@ const  Home = () => {
             </HomeDiv>
             <ImgContainer />
         </Container>
+        <Header rightOrLeft={"right"} home={"active"} />
+        </div>
     )
 }
 
