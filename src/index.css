@@ -4,6 +4,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
 .active {
@@ -14,4 +15,8 @@ body {
 
 .right {
     background-image: linear-gradient(to right, #000, #303030, #303030, #303030);
+}
+
+.left {
+    background-image: linear-gradient(to left, #000, #303030, #303030, #303030);
 }

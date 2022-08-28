@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import myImg from "../../my_picture.png";
-
+// import myImg from "../../my_picture.png";
 
 const Container = styled.div`
     display: flex;
@@ -9,10 +8,15 @@ const Container = styled.div`
     color: white;
     padding: 0;
     margin: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 `
 
 const HomeDiv = styled.div`
-    padding: 6rem 8rem;
+    margin: 0rem 8rem 8rem 8rem;
     align-self: flex-end;
     display: flex;
     flex-direction: column;
@@ -45,13 +49,32 @@ const SubHeading = styled.h2`
     margin: 0.5rem 0;
 `
 
-const ImgContainer = styled.div`
-    margin: 0 4rem;
-    background-image: url(${myImg});
-    width: 400px;
-    height: 550px;
-    background-size: cover;
-    background-position: 100% 50%;
+// const ImgContainer = styled.div`
+//     margin: 0 4rem;
+//     background-image: url(${myImg});
+//     width: 400px;
+//     height: 550px;
+//     background-size: cover;
+//     background-position: 100% 50%;
+// `
+
+const LinesCont = styled.div`
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0 10rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
 `
 
-export { Container, ImgContainer, HomeDiv, NameHeading, PorText, SubHeading }
+const OneLine = styled.div`
+    width: 2px;
+    background-color: white;
+    color: white;
+    margin: 0 10px;
+`
+
+export { Container, HomeDiv, NameHeading, PorText, SubHeading, LinesCont, OneLine }

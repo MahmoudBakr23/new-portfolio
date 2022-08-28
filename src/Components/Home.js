@@ -1,5 +1,6 @@
-import { ImgContainer, HomeDiv, Container, PorText, NameHeading, SubHeading } from "./Styles/Home.styled";
+import { HomeDiv, Container, PorText, NameHeading, SubHeading, OneLine, LinesCont } from "./Styles/Home.styled";
 import Header from "./Header";
+
 const  Home = () => {
     return(
         <div>
@@ -9,8 +10,14 @@ const  Home = () => {
                 <NameHeading>MAHMOUD BAKR</NameHeading>
                 <SubHeading>FULL STACK DEVELOPER</SubHeading>
             </HomeDiv>
-            <ImgContainer />
         </Container>
+        <LinesCont>
+                <OneLine />
+                <OneLine />
+                <OneLine />
+                <OneLine />
+                <OneLine />
+            </LinesCont>
         <Header rightOrLeft={"right"} home={"active"} />
         </div>
     )

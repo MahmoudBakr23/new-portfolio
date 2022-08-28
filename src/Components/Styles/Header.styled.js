@@ -3,6 +3,10 @@ import styled from "styled-components";
 const HeaderContainer = styled.div`
     padding: 2rem 0;
     margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 `
 
 const List = styled.ul`
