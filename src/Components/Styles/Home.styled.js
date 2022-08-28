@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import myImg from "../../my_picture.png";
+import myImg from "../../my_picture.png";
 
 const Container = styled.div`
     display: flex;
@@ -21,6 +21,7 @@ const HomeDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 `
 
 const PorText = styled.h3`
@@ -30,6 +31,9 @@ const PorText = styled.h3`
     letter-spacing: 7px;
     text-align: center;
     padding: 0.5rem 2rem;
+    @media (min-width: 1370px) {
+    font-size: 2rem;
+  }
 `
 
 const NameHeading = styled.h1`
@@ -39,6 +43,10 @@ const NameHeading = styled.h1`
     height: fit-content;
     margin: 0;
     line-height: 4.5rem;
+    @media (min-width: 1370px) {
+    font-size: 6rem;
+    line-height: 6.5rem;
+  }
 `
 
 const SubHeading = styled.h2`
@@ -47,16 +55,33 @@ const SubHeading = styled.h2`
     word-spacing: 5px;
     letter-spacing: 5px;
     margin: 0.5rem 0;
+    @media (min-width: 1370px) {
+    font-size: 2.5rem;
+  }
 `
 
-// const ImgContainer = styled.div`
-//     margin: 0 4rem;
-//     background-image: url(${myImg});
-//     width: 400px;
-//     height: 550px;
-//     background-size: cover;
-//     background-position: 100% 50%;
-// `
+const SecondDiv = styled.div`
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 1rem;
+`
+
+const ImgContainer = styled.div`
+    background-image: url(${myImg});
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 450px;
+    @media (min-width: 1370px) {
+    height: 600px;
+  }
+`
 
 const LinesCont = styled.div`
     display: flex;
@@ -77,4 +102,4 @@ const OneLine = styled.div`
     margin: 0 10px;
 `
 
-export { Container, HomeDiv, NameHeading, PorText, SubHeading, LinesCont, OneLine }
+export { Container, HomeDiv, NameHeading, PorText, SubHeading, LinesCont, OneLine, ImgContainer, SecondDiv }

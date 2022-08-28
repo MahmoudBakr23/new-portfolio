@@ -29,9 +29,4 @@ const ListLink = styled.a`
     color: white;
 `
 
-// const Icon = styled.i`
-//     background-color: ${props => props.active ? "white" : 'none'};
-//     border-radius: ${props => props.active ? "50%" : '0'};
-// `
-
 export { List, ListItem, ListLink, HeaderContainer }
