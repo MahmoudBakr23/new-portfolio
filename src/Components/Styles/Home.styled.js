@@ -4,7 +4,7 @@ import myImg from "../../my_picture.png";
 const Container = styled.div`
     display: flex;
     justify-content: space-between;
-    background-image: ${props => props.right ? "linear-gradient(to right, #000, #303030, #303030, #303030)" : "linear-gradient(to left, black, #303030, #303030)"};
+    background-image: ${props => props.right ? "linear-gradient(to right, #000, #303030, #303030, #303030)" : "linear-gradient(to left, black, #303030, #303030, #303030)"};
     color: white;
     padding: 0;
     margin: 0;
@@ -50,10 +50,10 @@ const NameHeading = styled.h1`
 `
 
 const SubHeading = styled.h2`
-    font-size: 1.5rem;
+    font-size: ${props => props.tight ? "1.2rem" : "1.5rem"};
     font-weight: 300;
-    word-spacing: 5px;
-    letter-spacing: 5px;
+    word-spacing: ${props => props.tight ? "0px" : "5px"};
+    letter-spacing: ${props => props.tight ? "0px" : "5px"};
     margin: 0.5rem 0;
     @media (min-width: 1370px) {
     font-size: 2.5rem;

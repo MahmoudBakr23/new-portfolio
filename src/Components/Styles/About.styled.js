@@ -1,25 +1,38 @@
 import styled from "styled-components";
-import aboutBg from '../../aboutbg.png';
 
 const AboutContainer = styled.div`
-    background-image: url(${aboutBg});
     margin: 0;
-    background-size: cover;
-    background-position: center center;
     width: 100%;
 `
 
 const AboutWrapper = styled.div`
     display: flex;
-    justify-content: space-between;
-    padding: 6rem 8rem;
+    flex-direction: column;
     align-self: flex-end;
-    align-items: flex-start;
+    align-items: flex-end;
+    text-align: right;
+    width: 100%;
+    margin: 6rem;
 `
 
-const Heading = styled.h1`
-    font-size: 2rem;
+const Heading = styled.h2`
+    font-size: 3rem;
+    font-weight: 800;
+    height: fit-content;
     margin: 0;
+    @media (min-width: 1370px) {
+    font-size: 6rem;
+  }
 `
 
-export { AboutContainer, Heading, AboutWrapper }
+const SecondWrapper = styled.div`
+    display: flex;
+    width: 100%;
+`
+
+const AboutImg = styled.div`
+    width: 600px;
+    height: 300px;
+`
+
+export { AboutContainer, Heading, AboutWrapper, SecondWrapper, AboutImg }
