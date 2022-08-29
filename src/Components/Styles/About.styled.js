@@ -27,8 +27,8 @@ const SecondWrapper = styled.div`
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 6rem;
-    margin-left: 6rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
 `
 
 const AboutImg = styled.div`

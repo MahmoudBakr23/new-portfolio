@@ -50,7 +50,7 @@ const NameHeading = styled.h1`
 `
 
 const SubHeading = styled.h2`
-    font-size: ${props => props.tight ? "1.2rem" : "1.5rem"};
+    font-size: ${props => props.tight ? "1.1rem" : "1.5rem"};
     font-weight: 200;
     word-spacing: ${props => props.tight ? "0px" : "5px"};
     letter-spacing: ${props => props.tight ? "0px" : "5px"};
