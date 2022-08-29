@@ -51,10 +51,11 @@ const NameHeading = styled.h1`
 
 const SubHeading = styled.h2`
     font-size: ${props => props.tight ? "1.2rem" : "1.5rem"};
-    font-weight: 300;
+    font-weight: 200;
     word-spacing: ${props => props.tight ? "0px" : "5px"};
     letter-spacing: ${props => props.tight ? "0px" : "5px"};
     margin: 0.5rem 0;
+    width: ${props => props.wid};
     @media (min-width: 1370px) {
     font-size: 2.5rem;
   }
@@ -86,8 +87,8 @@ const ImgContainer = styled.div`
 const LinesCont = styled.div`
     display: flex;
     justify-content: center;
-    height: 100%;
-    margin: 0 10rem;
+    height: ${props => props.short ? "35%" : "100%"};
+    margin: ${props => props.short ? "0 6rem" : "0 10rem"};
     position: absolute;
     right: 0;
     top: 0;

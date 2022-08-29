@@ -1,5 +1,5 @@
-import { AboutContainer, Heading, AboutWrapper, SecondWrapper, AboutImg } from './Styles/About.styled.js';
-import { Container, SubHeading } from './Styles/Home.styled.js';
+import {Heading, AboutWrapper, SecondWrapper, AboutImg } from './Styles/About.styled.js';
+import { Container, SubHeading, LinesCont, OneLine } from './Styles/Home.styled.js';
 import Header from './Header.js';
 
 const About = () => {
@@ -11,10 +11,17 @@ const About = () => {
             </SecondWrapper>
             <AboutWrapper>
                 <Heading>ABOUT ME</Heading>
-                <SubHeading tight >
-                    Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry
+                <SubHeading tight wid={"400px"}>
+                    Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out
                 </SubHeading>
             </AboutWrapper>
+            <LinesCont short>
+                <OneLine />
+                <OneLine />
+                <OneLine />
+                <OneLine />
+                <OneLine />
+            </LinesCont>
         <Header rightOrLeft={"left"} about={"active"} />
         </Container>
         </div>
