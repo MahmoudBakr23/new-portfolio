@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import aboutImg from "../../aboutme.png"
+// import aboutImg from "../../aboutme.png"
 
 const AboutWrapper = styled.div`
     display: flex;
@@ -23,18 +23,17 @@ const Heading = styled.h2`
 
 const SecondWrapper = styled.div`
     display: flex;
-    height: 100%;
+    height: ${props => props.hght};
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
-    margin-left: 8rem;
+    margin: ${props => props.mar};
 `
 
 const AboutImg = styled.div`
-    background-image: url(${aboutImg});
-    width: 500px;
-    height: 200px;
+    background-image: ${props => props.img};
+    width: ${props => props.wid};
+    height: ${props => props.hght};
     background-size: cover;
     background-position: center center;
 `

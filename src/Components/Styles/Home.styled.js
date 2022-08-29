@@ -87,10 +87,10 @@ const ImgContainer = styled.div`
 const LinesCont = styled.div`
     display: flex;
     justify-content: center;
-    height: ${props => props.short ? "35%" : "100%"};
-    margin: ${props => props.short ? "0 6rem" : "0 10rem"};
+    margin: ${props => props.mar};
+    height: ${props => props.hght};
     position: absolute;
-    right: 0;
+    right: ${props => props.right};
     top: 0;
     bottom: 0;
     z-index: 10;

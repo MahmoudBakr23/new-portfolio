@@ -13,7 +13,7 @@ const  Home = () => {
             <SecondDiv>
                 <ImgContainer />
             </SecondDiv>
-            <LinesCont>
+            <LinesCont mar={"0 10rem"} hght={"100%"} right={"0"}>
                 <OneLine />
                 <OneLine />
                 <OneLine />
