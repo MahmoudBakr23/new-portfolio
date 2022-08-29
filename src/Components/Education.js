@@ -11,25 +11,25 @@ const Education = () => {
             <EducationWrapper>
                 <Heading>EDUCATION</Heading>
                 <EducationItem>
-                    <Time>dasdhjkasdlk</Time>
-                    <University>daksjdlaksj</University>
-                    <College>dkalsjdlkasdj</College>
+                    <Time>2019 - 2023</Time>
+                    <University>Egypt, Damanhour University</University>
+                    <College>Bachelor of Commerce</College>
                 </EducationItem>
                 <EducationItem>
-                    <Time>dasdhjkasdlk</Time>
-                    <University>daksjdlaksj</University>
-                    <College>dkalsjdlkasdj</College>
+                    <Time>2020 - 2021</Time>
+                    <University>Microverse (Remote)</University>
+                    <College>Full stack web development Training</College>
                 </EducationItem>
                 <EducationItem>
-                    <Time>dasdhjkasdlk</Time>
-                    <University>daksjdlaksj</University>
-                    <College>dkalsjdlkasdj</College>
+                    <Time>2019 - 2020</Time>
+                    <University>Michigan State University (Remote)</University>
+                    <College>Game design and development</College>
                 </EducationItem>
             </EducationWrapper>
             <SecondWrapper hght={"none"} mar={"7rem 4rem 0 0"}>
                 <AboutImg img={`url(${eduImg})`} wid={"500px"} hght={"300px"} />
             </SecondWrapper>
-            <LinesCont mar={"0 6rem"} hght={"25%"} right={"100"}>
+            <LinesCont mar={"0 6rem"} hght={"20%"} right={"100"}>
                 <OneLine />
                 <OneLine />
                 <OneLine />
