@@ -8,7 +8,7 @@ const Education = () => {
     return(
         <div>
             <Container right>
-            <EducationWrapper>
+            <EducationWrapper flex={"center"}>
                 <Heading>EDUCATION</Heading>
                 <EducationItem>
                     <Time>2019 - 2023</Time>

@@ -2,7 +2,7 @@ import styled from "styled-components";
  
 const EducationWrapper = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: ${props => props.flex};
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
