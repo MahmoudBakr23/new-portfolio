@@ -4,7 +4,7 @@ const WorkWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 150%;
+    width: 200%;
     margin-top: 2rem;
 `
 
@@ -13,15 +13,17 @@ const ProjectWrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
     align-self: flex-start;
+    height: 100%;
+    padding-top: 1rem;
 `
 
 const Project = styled.div`
     background-image: ${props => props.img};
-    width: 220px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    margin: 1rem;
+    width: 260px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: ${props => props.margin};
 `
 
 const PropjectDetailsCont = styled.div`

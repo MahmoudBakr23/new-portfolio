@@ -6,8 +6,7 @@ const EducationWrapper = styled.div`
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin-left: 6rem;
-    margin-top: 6rem;
+    margin: ${props => props.margin};
 `
 
 const EducationItem = styled.div`

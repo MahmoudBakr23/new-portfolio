@@ -37,7 +37,7 @@ const Experience = () => {
     return(
         <div>
             <Container>
-                <EducationWrapper flex={"start"}>
+                <EducationWrapper flex={"start"} margin={"2rem 0 0 4rem"}>
                     <Heading>Experience</Heading>
                     <EducationItem>
                         <Time>2019 - 2023</Time>
@@ -58,17 +58,32 @@ const Experience = () => {
                 <WorkWrapper>
                     <Heading>My Projects</Heading>
                     <ProjectWrapper>
-                        <Project img={`url(${test1})`} className={"one"} onMouseEnter={handleHiddenDiv1} onMouseLeave={handleVisibleDiv1}>
-                            <ProjectDetails project={"I am project 1"} 
-                                        />
+                        <Project img={`url(${test1})`}
+                                 className={"one"}
+                                 onMouseEnter={handleHiddenDiv1}
+                                 onMouseLeave={handleVisibleDiv1}
+                                 margin={"0rem"}
+                        >
+                            <ProjectDetails project={"I am project 1"}
+                            />
                         </Project>
-                        <Project img={`url(${test2})`} className={"two"} onMouseEnter={handleHiddenDiv2} onMouseLeave={handleVisibleDiv2}>
+                        <Project img={`url(${test2})`}
+                                 className={"two"}
+                                 onMouseEnter={handleHiddenDiv2}
+                                 onMouseLeave={handleVisibleDiv2}
+                                 margin={"1rem"}
+                        >
                             <ProjectDetails project={"I am project 2"}
-                                        />
+                            />
                         </Project>
-                        <Project img={`url(${test3})`} className={"three"} onMouseEnter={handleHiddenDiv3} onMouseLeave={handleVisibleDiv3}>
+                        <Project img={`url(${test3})`}
+                                 className={"three"}
+                                 onMouseEnter={handleHiddenDiv3}
+                                 onMouseLeave={handleVisibleDiv3}
+                                 margin={"1rem"}
+                        >
                             <ProjectDetails project={"I am project 3"}
-                                        />
+                            />
                         </Project>
                     </ProjectWrapper>
                 </WorkWrapper>
