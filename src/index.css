@@ -26,3 +26,11 @@ body {
 .left {
     background-image: linear-gradient(to left, #000, #303030, #303030, #303030);
 }
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}

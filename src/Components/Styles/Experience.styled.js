@@ -4,8 +4,8 @@ const WorkWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
-    margin-top: 6rem;
+    width: 150%;
+    margin-top: 2rem;
 `
 
 const ProjectWrapper = styled.div`
@@ -16,8 +16,19 @@ const ProjectWrapper = styled.div`
 `
 
 const Project = styled.div`
-    background-color: white;
-    height: 100%;
+    background-image: ${props => props.img};
+    width: 220px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    margin: 1rem;
 `
 
-export { WorkWrapper, Project, ProjectWrapper }
+const PropjectDetailsCont = styled.div`
+    font-size: 1rem;
+    background-color: rgba(255, 0, 0, 0.4);
+    height: 100%;
+    display: ${props => props.hidden};
+`
+
+export { WorkWrapper, Project, ProjectWrapper, PropjectDetailsCont }

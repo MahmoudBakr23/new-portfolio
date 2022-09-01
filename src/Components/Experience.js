@@ -3,8 +3,34 @@ import Header from "./Header";
 import { EducationWrapper, EducationItem, Time, University, College } from "./Styles/Education.styled";
 import { Heading } from "./Styles/About.styled";
 import { WorkWrapper, ProjectWrapper, Project } from "./Styles/Experience.styled";
+import test1 from '../test1.png'
+import test2 from '../test2.png'
+import test3 from '../test3.png'
+import ProjectDetails from "./ProjectDetails";
 
 const Experience = () => {
+    const project1 = document.querySelector('.one')
+    const project2 = document.querySelector('.two')
+    const project3 = document.querySelector('.three')
+
+    const handleHiddenDiv1 = () => {
+        project1.firstChild.classList.replace('none', 'block')
+    }
+    const handleHiddenDiv2 = () => {
+        project2.firstChild.classList.replace('none', 'block')
+    }
+    const handleHiddenDiv3 = () => {
+        project3.firstChild.classList.replace('none', 'block')
+    }
+    const handleVisibleDiv1 = () => {
+        project1.firstChild.classList.replace('block', 'none')
+    }
+    const handleVisibleDiv2 = () => {
+        project2.firstChild.classList.replace('block', 'none')
+    }
+    const handleVisibleDiv3 = () => {
+        project3.firstChild.classList.replace('block', 'none')
+    }
     return(
         <div>
             <Container>
@@ -29,9 +55,18 @@ const Experience = () => {
                 <WorkWrapper>
                     <Heading>My Projects</Heading>
                     <ProjectWrapper>
-                        <Project>Hi I'm Project</Project>
-                        <Project>Hi I'm Project</Project>
-                        <Project>Hi I'm Project</Project>
+                        <Project img={`url(${test1})`} className={"one"} onMouseEnter={handleHiddenDiv1} onMouseLeave={handleVisibleDiv1}>
+                            <ProjectDetails project={"I am project 1"} 
+                                        />
+                        </Project>
+                        <Project img={`url(${test2})`} className={"two"} onMouseEnter={handleHiddenDiv2} onMouseLeave={handleVisibleDiv2}>
+                            <ProjectDetails project={"I am project 2"}
+                                        />
+                        </Project>
+                        <Project img={`url(${test3})`} className={"three"} onMouseEnter={handleHiddenDiv3} onMouseLeave={handleVisibleDiv3}>
+                            <ProjectDetails project={"I am project 3"}
+                                        />
+                        </Project>
                     </ProjectWrapper>
                 </WorkWrapper>
                 <Header rightOrLeft={"left"} work={"active"} />
