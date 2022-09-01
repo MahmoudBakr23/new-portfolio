@@ -64,7 +64,10 @@ const Experience = () => {
                                  onMouseLeave={handleVisibleDiv1}
                                  margin={"0rem"}
                         >
-                            <ProjectDetails project={"I am project 1"}
+                            <ProjectDetails title={"Library"}
+                                            description={"This is the first project you are about to see!"}
+                                            liveLink={"https://www.google.com/"}
+                                            repoLink={"https://www.google.com/"}
                             />
                         </Project>
                         <Project img={`url(${test2})`}
@@ -73,7 +76,10 @@ const Experience = () => {
                                  onMouseLeave={handleVisibleDiv2}
                                  margin={"1rem"}
                         >
-                            <ProjectDetails project={"I am project 2"}
+                            <ProjectDetails title={"I am project 2"}
+                                            description={"This is the first project you are about to see! This is the first project you are about to see! This is the first"}
+                                            liveLink={"https://www.google.com/"}
+                                            repoLink={"https://www.google.com/"}
                             />
                         </Project>
                         <Project img={`url(${test3})`}
@@ -82,7 +88,10 @@ const Experience = () => {
                                  onMouseLeave={handleVisibleDiv3}
                                  margin={"1rem"}
                         >
-                            <ProjectDetails project={"I am project 3"}
+                            <ProjectDetails title={"I am project 3"}
+                                            description={"This is the first project you are about to see!"}
+                                            liveLink={"https://www.google.com/"}
+                                            repoLink={"https://www.google.com/"}
                             />
                         </Project>
                     </ProjectWrapper>
