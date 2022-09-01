@@ -9,28 +9,31 @@ import test3 from '../test3.png'
 import ProjectDetails from "./ProjectDetails";
 
 const Experience = () => {
-    const project1 = document.querySelector('.one')
-    const project2 = document.querySelector('.two')
-    const project3 = document.querySelector('.three')
-
     const handleHiddenDiv1 = () => {
+        const project1 = document.querySelector('.one')
         project1.firstChild.classList.replace('none', 'block')
     }
     const handleHiddenDiv2 = () => {
+        const project2 = document.querySelector('.two')
         project2.firstChild.classList.replace('none', 'block')
     }
     const handleHiddenDiv3 = () => {
+        const project3 = document.querySelector('.three')
         project3.firstChild.classList.replace('none', 'block')
     }
     const handleVisibleDiv1 = () => {
+        const project1 = document.querySelector('.one')
         project1.firstChild.classList.replace('block', 'none')
     }
     const handleVisibleDiv2 = () => {
+        const project2 = document.querySelector('.two')
         project2.firstChild.classList.replace('block', 'none')
     }
     const handleVisibleDiv3 = () => {
+        const project3 = document.querySelector('.three')
         project3.firstChild.classList.replace('block', 'none')
     }
+
     return(
         <div>
             <Container>
