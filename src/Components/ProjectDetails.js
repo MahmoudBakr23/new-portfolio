@@ -10,8 +10,8 @@ const ProjectDetails = ({title, description, liveLink, repoLink, bgColor, tech1,
             </TechDiv>
             <ProjectDesc>{description}</ProjectDesc>
             <LinkDiv>
-                <Link href={liveLink} target="_blank" bgColor={"white"} color={"#333"}>Live Link</Link>
-                <Link href={repoLink} target="_blank" bgColor={"none"} color={"#fff"}>Source Code</Link>
+                <Link href={liveLink} target="_blank" bgColor={"white"} color={"#333"} border={"1px solid white"}>Live Link</Link>
+                <Link href={repoLink} target="_blank" bgColor={"none"} color={"#fff"} border={"1px solid white"}>Source Code</Link>
             </LinkDiv>
         </PropjectDetailsCont>
     )

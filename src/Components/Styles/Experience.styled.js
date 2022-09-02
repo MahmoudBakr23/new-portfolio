@@ -58,7 +58,7 @@ const Link = styled.a`
     color: ${props => props.color};
     font-weight: 300;
     letter-spacing: 2px;
-    border: 1px solid white;
+    border: ${props => props.border};
     border-radius: 50px;
     margin: 0.5rem 0;
 `
