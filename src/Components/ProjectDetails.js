@@ -1,13 +1,12 @@
 import { PropjectDetailsCont, ProjectDesc, ProjectHeading, Link, LinkDiv, TechDiv, TechItem } from "./Styles/Experience.styled";
 
-const ProjectDetails = ({title, description, liveLink, repoLink}) => {
+const ProjectDetails = ({title, description, liveLink, repoLink, bgColor, tech1, tech2}) => {
     return(
-        <PropjectDetailsCont className={"none"}>
+        <PropjectDetailsCont className={"none"} bgColor={bgColor}>
             <ProjectHeading>{title}</ProjectHeading>
             <TechDiv>
-                <TechItem margin={"0"}>React</TechItem>
-                <TechItem margin={"0 0 0 0.5rem"}>Redux</TechItem>
-                <TechItem margin={"0 0 0 0.5rem"}>CSS</TechItem>
+                <TechItem margin={"0"}>{tech1}</TechItem>
+                <TechItem margin={"0 0 0 0.5rem"}>{tech2}</TechItem>
             </TechDiv>
             <ProjectDesc>{description}</ProjectDesc>
             <LinkDiv>

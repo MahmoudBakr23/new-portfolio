@@ -7,6 +7,7 @@ import test1 from '../test1.png'
 import test2 from '../test2.png'
 import test3 from '../test3.png'
 import ProjectDetails from "./ProjectDetails";
+import { LinesCont, OneLine } from "./Styles/Home.styled";
 
 const Experience = () => {
     const handleHiddenDiv1 = () => {
@@ -40,19 +41,19 @@ const Experience = () => {
                 <EducationWrapper flex={"start"} margin={"2rem 0 0 4rem"}>
                     <Heading>Experience</Heading>
                     <EducationItem>
-                        <Time>2019 - 2023</Time>
-                        <University>Egypt, Damanhour University</University>
-                        <College>Bachelor of Commerce</College>
+                        <Time>Mar 2022 - Present</Time>
+                        <University>Code Reviewer - Microverse (Remote)</University>
+                        <College>Part-time</College>
                     </EducationItem>
                     <EducationItem>
-                        <Time>2020 - 2021</Time>
-                        <University>Microverse (Remote)</University>
-                        <College>Full stack web development Training</College>
+                        <Time>Nov 2021 - Mar 2022</Time>
+                        <University>Senior Code Reviewer - Microverse (Remote)</University>
+                        <College>Full-time (Contract)</College>
                     </EducationItem>
                     <EducationItem>
-                        <Time>2019 - 2020</Time>
-                        <University>Michigan State University (Remote)</University>
-                        <College>Game design and development</College>
+                        <Time>Jan 2021 - Nov 2021</Time>
+                        <University>Code Reviewer - Microverse (Remote)</University>
+                        <College>Part-time</College>
                     </EducationItem>
                 </EducationWrapper>
                 <WorkWrapper>
@@ -65,9 +66,12 @@ const Experience = () => {
                                  margin={"0rem"}
                         >
                             <ProjectDetails title={"Library"}
-                                            description={"This is the first project you are about to see!"}
-                                            liveLink={"https://www.google.com/"}
-                                            repoLink={"https://www.google.com/"}
+                                            description={"Adding new various books, and filtering them by category in a cool and simple static UI. "}
+                                            liveLink={"https://limerary.herokuapp.com/"}
+                                            repoLink={"https://github.com/MahmoudBakr23/Limerary"}
+                                            bgColor={"rgba(0, 0, 255, 0.9)"}
+                                            tech1={"React"}
+                                            tech2={"Redux"}
                             />
                         </Project>
                         <Project img={`url(${test2})`}
@@ -76,10 +80,13 @@ const Experience = () => {
                                  onMouseLeave={handleVisibleDiv2}
                                  margin={"1rem"}
                         >
-                            <ProjectDetails title={"I am project 2"}
-                                            description={"This is the first project you are about to see! This is the first project you are about to see! This is the first"}
-                                            liveLink={"https://www.google.com/"}
-                                            repoLink={"https://www.google.com/"}
+                            <ProjectDetails title={"Anime Quotes"}
+                                            description={"Search for your favorite Anime, and then search again for your favorite character's quotes."}
+                                            liveLink={"https://quotexquote.herokuapp.com/"}
+                                            repoLink={"https://github.com/MahmoudBakr23/quoteXquote/tree/feature"}
+                                            bgColor={"rgba(255, 140, 0, 0.9)"}
+                                            tech1={"React"}
+                                            tech2={"Redux"}
                             />
                         </Project>
                         <Project img={`url(${test3})`}
@@ -88,14 +95,25 @@ const Experience = () => {
                                  onMouseLeave={handleVisibleDiv3}
                                  margin={"1rem"}
                         >
-                            <ProjectDetails title={"I am project 3"}
-                                            description={"This is the first project you are about to see!"}
-                                            liveLink={"https://www.google.com/"}
-                                            repoLink={"https://www.google.com/"}
+                            <ProjectDetails title={"Transactions Group"}
+                                            description={"Track your purchases by adding and sorting them by group type."}
+                                            liveLink={"https://warm-cliffs-32314.herokuapp.com/"}
+                                            repoLink={"https://github.com/MahmoudBakr23/Group-Transactions"}
+                                            bgColor={"rgba(119, 0, 200, 0.9)"}
+                                            tech1={"Ruby"}
+                                            tech2={"Ruby on Rails"}
+                                            
                             />
                         </Project>
                     </ProjectWrapper>
                 </WorkWrapper>
+                <LinesCont mar={"0 4rem"} hght={"30%"} right={"100"} top={"100"}>
+                    <OneLine />
+                    <OneLine />
+                    <OneLine />
+                    <OneLine />
+                    <OneLine />
+                </LinesCont>
                 <Header rightOrLeft={"left"} work={"active"} />
             </Container>
         </div>

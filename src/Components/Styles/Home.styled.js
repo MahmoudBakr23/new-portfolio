@@ -91,7 +91,7 @@ const LinesCont = styled.div`
     height: ${props => props.hght};
     position: absolute;
     right: ${props => props.right};
-    top: 0;
+    top: ${props => props.top};
     bottom: 0;
     z-index: 10;
 `

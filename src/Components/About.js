@@ -16,7 +16,7 @@ const About = () => {
                     Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out
                 </SubHeading>
             </AboutWrapper>
-            <LinesCont mar={"0 6rem"} hght={"35%"} right={"0"}>
+            <LinesCont mar={"0 6rem"} hght={"35%"} right={"0"} top={"0"}>
                 <OneLine />
                 <OneLine />
                 <OneLine />

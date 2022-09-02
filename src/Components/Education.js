@@ -29,7 +29,7 @@ const Education = () => {
             <SecondWrapper hght={"none"} mar={"7rem 4rem 0 0"}>
                 <AboutImg img={`url(${eduImg})`} wid={"500px"} hght={"300px"} />
             </SecondWrapper>
-            <LinesCont mar={"0 6rem"} hght={"20%"} right={"100"}>
+            <LinesCont mar={"0 6rem"} hght={"20%"} right={"100"} top={"0"}>
                 <OneLine />
                 <OneLine />
                 <OneLine />

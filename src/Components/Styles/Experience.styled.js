@@ -28,7 +28,7 @@ const Project = styled.div`
 
 const PropjectDetailsCont = styled.div`
     font-size: 1rem;
-    background-color: rgba(0, 0, 255, 0.6);
+    background-color: ${props => props.bgColor};
     height: 100%;
     display: ${props => props.hidden};
     padding: 1rem;
