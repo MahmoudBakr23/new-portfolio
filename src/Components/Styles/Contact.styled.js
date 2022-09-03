@@ -21,7 +21,7 @@ const Name = styled.input`
     outline: 0;
     padding: 1rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     width: ${props => props.width};
     margin: ${props => props.margin};
@@ -29,6 +29,9 @@ const Name = styled.input`
     letter-spacing: 3px;
     &:focus {
         border-bottom: 1px solid white;
+    }
+    &::placeholder {
+        color: white;
     }
 `
 
@@ -42,8 +45,11 @@ const Message = styled.textarea`
     color: white;
     width: 100%;
     background-color: #333;
-    &:active {
+    &:focus {
         border-bottom: 1px solid white;
+    }
+    &::placeholder {
+        color: white;
     }
 `
 
