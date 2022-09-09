@@ -7,6 +7,12 @@ const EducationWrapper = styled.div`
     align-items: flex-start;
     width: 100%;
     margin: ${props => props.margin};
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-items: flex-start;
+      align-self: flex-start;
+      margin: 2rem 0 0 3rem;
+      width: auto;
+  }
 `
 
 const EducationItem = styled.div`
@@ -15,6 +21,10 @@ const EducationItem = styled.div`
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem 0;
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-self: flex-start;
+      margin: 0;
+  }
 `
 
 const Time = styled.h4`

@@ -40,7 +40,7 @@ const SecondWrapper = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: center;
       align-self: flex-start;
-      margin: 3rem 0 0 0;
+      margin: 1rem 0 0 0;
   }
 `
 
@@ -53,10 +53,14 @@ const AboutImg = styled.div`
     @media (min-width: 320px) and (max-width: 459px) {
         height: 120px;
         width: 300px;
+        width: ${props => props.smwid};
+        height: ${props => props.smhg};
   }
   @media (min-width: 460px) and (max-width: 560px) {
         height: 150px;
         width: 400px;
+        width: ${props => props.mdwid};
+        height: ${props => props.mdhg};
   }
 `
 
