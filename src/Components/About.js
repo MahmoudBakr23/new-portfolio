@@ -12,7 +12,7 @@ const About = () => {
             </SecondWrapper>
             <AboutWrapper>
                 <Heading>ABOUT ME</Heading>
-                <SubHeading tight wid={"400px"}>
+                <SubHeading tight size={"1rem"}>
                     Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out
                 </SubHeading>
             </AboutWrapper>

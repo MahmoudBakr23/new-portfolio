@@ -79,15 +79,15 @@ const SubHeading = styled.h2`
     word-spacing: ${props => props.tight ? "0px" : "5px"};
     letter-spacing: ${props => props.tight ? "0px" : "5px"};
     margin: 0.5rem 0;
-    width: ${props => props.wid};
     @media (min-width: 1370px) {
     font-size: 2.5rem;
   }
     @media (min-width: 320px) and (max-width: 560px) {
-      font-size: 1.2rem;
+      font-size: ${props => props.size};
       word-spacing: 1px;
       letter-spacing: 1px;
       margin: 0;
+      padding: 0 1rem;
   }
 `
 

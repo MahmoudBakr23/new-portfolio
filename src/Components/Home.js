@@ -8,7 +8,7 @@ const  Home = () => {
             <HomeDiv>
                 <PorText>PORTFOLIO</PorText>
                 <NameHeading>MAHMOUD BAKR</NameHeading>
-                <SubHeading>FULL STACK DEVELOPER</SubHeading>
+                <SubHeading size={"1.2rem"}>FULL STACK DEVELOPER</SubHeading>
             </HomeDiv>
             <SecondDiv>
                 <ImgContainer />

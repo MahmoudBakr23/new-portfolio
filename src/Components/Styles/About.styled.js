@@ -10,6 +10,12 @@ const AboutWrapper = styled.div`
     margin: 10rem 6rem 0rem 6rem;
     padding: 0;
     width: 100%;
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-items: center;
+      align-self: flex-start;
+      margin: 1rem 0 0 0;
+      text-align: center;
+  }
 `
 
 const Heading = styled.h2`
@@ -18,6 +24,9 @@ const Heading = styled.h2`
     margin: 0;
     @media (min-width: 1370px) {
     font-size: 6rem;
+  }
+  @media (min-width: 320px) and (max-width: 560px) {
+    font-size: 2rem;
   }
 `
 
@@ -28,6 +37,11 @@ const SecondWrapper = styled.div`
     align-items: center;
     justify-content: center;
     margin: ${props => props.mar};
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-items: center;
+      align-self: flex-start;
+      margin: 3rem 0 0 0;
+  }
 `
 
 const AboutImg = styled.div`
@@ -36,6 +50,14 @@ const AboutImg = styled.div`
     height: ${props => props.hght};
     background-size: cover;
     background-position: center center;
+    @media (min-width: 320px) and (max-width: 459px) {
+        height: 120px;
+        width: 300px;
+  }
+  @media (min-width: 460px) and (max-width: 560px) {
+        height: 150px;
+        width: 400px;
+  }
 `
 
 export { Heading, AboutWrapper, SecondWrapper, AboutImg }
