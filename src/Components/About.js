@@ -6,12 +6,12 @@ import Header from './Header.js';
 const About = () => {
     return(
         <div>
-        <Container>
-            <SecondWrapper hght={"100%"} mar={"7rem 0 0 8rem"}>
+        <Container smpadd={"4rem 0"}>
+            <SecondWrapper hght={"100%"} mar={"7rem 0 0 8rem"} smmar={"1rem 0 0 0"}>
                 <AboutImg img={`url(${aboutImg})`} wid={"500px"} hght={"200px"} smwid={"300px"} smhg={"120px"} mdwid={"400px"} mdhg={"150px"}  />
             </SecondWrapper>
             <AboutWrapper>
-                <Heading>ABOUT ME</Heading>
+                <Heading smmar={"2rem 0 0 0"} >ABOUT ME</Heading>
                 <SubHeading tight size={"1rem"}>
                     Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out
                 </SubHeading>

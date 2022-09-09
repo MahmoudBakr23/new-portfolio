@@ -18,8 +18,7 @@ const Container = styled.div`
       flex-direction: column-reverse;
       justify-content: center;
       position: static;
-      padding: 6rem 0;
-      height: 100%;
+      padding: ${props => props.smpadd};
     }
 `
 

@@ -27,6 +27,7 @@ const Heading = styled.h2`
   }
   @media (min-width: 320px) and (max-width: 560px) {
     font-size: 2rem;
+    margin: ${props => props.smmar};
   }
 `
 
@@ -40,7 +41,7 @@ const SecondWrapper = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: center;
       align-self: flex-start;
-      margin: 1rem 0 0 0;
+      margin: ${props => props.smmar};
   }
 `
 

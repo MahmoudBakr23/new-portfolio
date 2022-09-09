@@ -7,7 +7,7 @@ import eduImg from '../edu.png';
 const Education = () => {
     return(
         <div>
-            <Container right>
+            <Container right smpadd={"3rem 0"}>
             <EducationWrapper flex={"center"} margin={"6rem 0 0 6rem"}>
                 <Heading>EDUCATION</Heading>
                 <EducationItem>
@@ -26,7 +26,7 @@ const Education = () => {
                     <College>Game design and development</College>
                 </EducationItem>
             </EducationWrapper>
-            <SecondWrapper hght={"none"} mar={"7rem 4rem 0 0"}>
+            <SecondWrapper hght={"none"} mar={"7rem 4rem 0 0"} smmar={"4rem 0 0 0"}>
                 <AboutImg img={`url(${eduImg})`} wid={"500px"} hght={"300px"} smwid={"300px"} smhg={"180px"} mdwid={"400px"} mdhg={"250px"} />
             </SecondWrapper>
             <LinesCont mar={"0 6rem"} hght={"20%"} right={"100"} top={"0"}>

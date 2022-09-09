@@ -37,7 +37,7 @@ const Experience = () => {
 
     return(
         <div>
-            <Container>
+            <Container smpadd={"0"}>
                 <EducationWrapper flex={"start"} margin={"2rem 0 0 4rem"}>
                     <Heading>Experience</Heading>
                     <EducationItem>
@@ -57,7 +57,7 @@ const Experience = () => {
                     </EducationItem>
                 </EducationWrapper>
                 <WorkWrapper>
-                    <Heading>My Projects</Heading>
+                    <Heading smmar={"8rem 0 0 0"} >My Projects</Heading>
                     <ProjectWrapper>
                         <Project img={`url(${test1})`}
                                  className={"one"}

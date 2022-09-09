@@ -10,7 +10,8 @@ const EducationWrapper = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: flex-start;
       align-self: flex-start;
-      margin: 2rem 0 0 3rem;
+      flex-direction: column;
+      margin: 1rem 0 0 3rem;
       width: auto;
   }
 `

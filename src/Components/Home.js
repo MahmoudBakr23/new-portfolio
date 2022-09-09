@@ -4,7 +4,7 @@ import Header from "./Header";
 const  Home = () => {
     return(
         <div>
-        <Container right>
+        <Container right smpadd={"5rem 0"} >
             <HomeDiv>
                 <PorText>PORTFOLIO</PorText>
                 <NameHeading>MAHMOUD BAKR</NameHeading>

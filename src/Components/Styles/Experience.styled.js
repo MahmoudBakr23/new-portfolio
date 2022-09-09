@@ -6,6 +6,13 @@ const WorkWrapper = styled.div`
     justify-content: flex-start;
     width: 200%;
     margin-top: 2rem;
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-items: center;
+      align-self: flex-start;
+      flex-direction: column;
+      margin: 0;
+      width: 100%;
+  }
 `
 
 const ProjectWrapper = styled.div`
@@ -15,15 +22,30 @@ const ProjectWrapper = styled.div`
     align-self: flex-start;
     height: 100%;
     padding-top: 1rem;
+    @media (min-width: 320px) and (max-width: 560px) {
+      flex-direction: column;
+      margin: 2rem 0;
+      padding: 0;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+  }
 `
 
 const Project = styled.div`
     background-image: ${props => props.img};
-    width: 260px;
+    width: 250px;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     margin: ${props => props.margin};
+    @media (min-width: 320px) and (max-width: 560px) {
+        width: 300px;
+        height: 430px;
+        background-size: cover;
+        margin: 1rem 0 0 0;
+  }
 `
 
 const PropjectDetailsCont = styled.div`
@@ -32,6 +54,11 @@ const PropjectDetailsCont = styled.div`
     height: 100%;
     display: ${props => props.hidden};
     padding: 1rem;
+    position: relative;
+    @media (min-width: 320px) and (max-width: 560px) {
+        /* margin: 1rem 0 0 0; */
+        height: 400px;
+  }
 `
 
 const ProjectHeading = styled.h3`
