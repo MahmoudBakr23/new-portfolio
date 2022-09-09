@@ -13,7 +13,7 @@ const AboutWrapper = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: center;
       align-self: flex-start;
-      margin: 4rem 0 0 0;
+      margin: 2rem 0;
       text-align: center;
   }
 `
@@ -39,7 +39,7 @@ const SecondWrapper = styled.div`
     justify-content: center;
     margin: ${props => props.mar};
     @media (min-width: 320px) and (max-width: 560px) {
-      align-items: center;
+      align-items: flex-start;
       align-self: flex-start;
       margin: ${props => props.smmar};
   }
