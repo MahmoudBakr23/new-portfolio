@@ -4,7 +4,7 @@ import Header from "./Header";
 const  Home = () => {
     return(
         <div>
-        <Container right smpadd={"5rem 0"} pos={"fixed"} vh={"100vh"} >
+        <Container right smpadd={"5rem 0"} pos={"fixed"} vh={"100vh"} dir={"column-reverse"}>
             <HomeDiv>
                 <PorText>PORTFOLIO</PorText>
                 <NameHeading>MAHMOUD BAKR</NameHeading>

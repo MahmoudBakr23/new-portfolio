@@ -11,7 +11,7 @@ const EducationWrapper = styled.div`
       align-items: flex-start;
       align-self: flex-start;
       flex-direction: column;
-      margin: 1rem 0 0 3rem;
+      margin: 1rem 3rem 0 3rem;
       width: auto;
   }
 `

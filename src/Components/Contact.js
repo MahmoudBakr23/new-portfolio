@@ -8,7 +8,7 @@ import { Name, NameDiv, FormBtn, FormDiv, Message } from "./Styles/Contact.style
 const Contact = () => {
     return(
         <div>
-            <Container right vh={"100%"} pos={"static"}>
+            <Container right smpadd={"6rem 0"} vh={"100%"} pos={"static"} dir={"column"}>
             <EducationWrapper flex={"center"} margin={"10rem 0 0 8rem"}>
                 <Heading>Contact Me</Heading>
                 <EducationItem>
@@ -24,8 +24,8 @@ const Contact = () => {
             <EducationWrapper flex={"center"} margin={"8rem 8rem 0 0"}>
                 <FormDiv action="https://formspree.io/f/myylerlb" method="POST">
                     <NameDiv>
-                        <Name name="first Name" placeholder="First Name" width={"100%"} required/>
-                        <Name name="second Name" placeholder="Last Name" margin={"0 0 0 1rem"} width={"100%"} required/>
+                        <Name name="first Name" placeholder="First Name" width={"100%"} smmar={"0 0 0 2rem"} required/>
+                        <Name name="second Name" placeholder="Last Name" margin={"0 0 0 1rem"} smmar={"1rem 0 0 2rem"} width={"100%"} required/>
                     </NameDiv>
                     <Name type="email" name="email" placeholder="Email" width={"100%"} margin={"1rem 0 0 0"} required/>
                     <Name name="subject" placeholder="Subject" width={"100%"} margin={"1rem 0 0 0"} required/>

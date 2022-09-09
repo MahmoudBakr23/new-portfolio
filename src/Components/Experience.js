@@ -37,8 +37,8 @@ const Experience = () => {
 
     return(
         <div>
-            <Container smpadd={"0"} vh={"100%"} pos={"static"}>
-                <EducationWrapper flex={"start"} margin={"2rem 0 0 4rem"}>
+            <Container smpadd={"0"} vh={"100%"} pos={"static"} dir={"column-reverse"} >
+                <EducationWrapper flex={"start"} margin={"2rem 0 0 4rem"} dir={"column"} >
                     <Heading>Experience</Heading>
                     <EducationItem>
                         <Time>Mar 2022 - Present</Time>

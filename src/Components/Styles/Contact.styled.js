@@ -14,6 +14,10 @@ const NameDiv = styled.div`
     display: flex;
     width: 100%;
     align-items: center;
+    @media (min-width: 320px) and (max-width: 560px) {
+        flex-direction: column;
+        margin: 0;
+  }
 `
 
 const Name = styled.input`
@@ -33,6 +37,12 @@ const Name = styled.input`
     &::placeholder {
         color: white;
     }
+    @media (min-width: 320px) and (max-width: 560px) {
+        flex-direction: column;
+        align-items: flex-end;
+        margin: ${props => props.smmar};
+        width: 100%;
+  }
 `
 
 const Message = styled.textarea`
@@ -64,6 +74,10 @@ const FormBtn = styled.button`
     border: 1px solid white;
     outline: 0;
     background-color: #fff;
+    @media (min-width: 320px) and (max-width: 560px) {
+        width: 100%;
+        margin: 1rem 0 0 0;
+  }
 `
 
 export { FormBtn, FormDiv, Name, Message, NameDiv };

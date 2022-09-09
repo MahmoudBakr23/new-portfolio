@@ -7,8 +7,8 @@ import eduImg from '../edu.png';
 const Education = () => {
     return(
         <div>
-            <Container right smpadd={"3rem 0"} vh={"100vh"} pos={"static"} >
-            <EducationWrapper flex={"center"} margin={"6rem 0 0 6rem"}>
+            <Container right smpadd={"4rem 0"} vh={"200%"} pos={"static"} dir={"column-reverse"}>
+            <EducationWrapper flex={"center"} margin={"6rem 0 0 6rem"} dir={"column"} >
                 <Heading>EDUCATION</Heading>
                 <EducationItem>
                     <Time>2019 - 2023</Time>

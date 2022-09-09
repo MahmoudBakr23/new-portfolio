@@ -15,7 +15,7 @@ const Container = styled.div`
     right: 0;
     left: 0;
     @media (min-width: 320px) and (max-width: 560px) {
-      flex-direction: column-reverse;
+      flex-direction: ${props => props.dir};
       justify-content: start;
       position: ${props => props.pos};
       padding: ${props => props.smpadd};
