@@ -7,6 +7,13 @@ const HeaderContainer = styled.div`
     bottom: 0;
     right: 0;
     left: 0;
+    @media (max-width: 978px) {
+        top: 0;
+        height: fit-content;
+    }
+    @media (min-width: 320px) and (max-width: 560px) {
+      z-index: 15;
+    }
 `
 
 const List = styled.ul`

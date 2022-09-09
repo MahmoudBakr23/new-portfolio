@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import myImg from "../../my_picture.png";
+import mobileImg from "../../mobile_me.png";
 
 const Container = styled.div`
     display: flex;
@@ -13,6 +14,13 @@ const Container = styled.div`
     bottom: 0;
     right: 0;
     left: 0;
+    @media (min-width: 320px) and (max-width: 560px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      position: static;
+      padding: 6rem 0;
+      height: 100%;
+    }
 `
 
 const HomeDiv = styled.div`
@@ -22,6 +30,12 @@ const HomeDiv = styled.div`
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-self: center;
+      margin: 2rem 0 0 0;
+      align-items: center;
+      text-align: center;
+    }
 `
 
 const PorText = styled.h3`
@@ -33,6 +47,9 @@ const PorText = styled.h3`
     padding: 0.5rem 2rem;
     @media (min-width: 1370px) {
     font-size: 2rem;
+  }
+  @media (min-width: 320px) and (max-width: 560px) {
+      font-size: 1.1rem;
   }
 `
 
@@ -47,6 +64,13 @@ const NameHeading = styled.h1`
     font-size: 6rem;
     line-height: 6.5rem;
   }
+  @media (min-width: 320px) and (max-width: 560px) {
+      font-size: 2.5rem;
+      line-height: 3rem;
+      text-align: center;
+      width: 100%;
+      height: fit-content;
+  }
 `
 
 const SubHeading = styled.h2`
@@ -58,6 +82,12 @@ const SubHeading = styled.h2`
     width: ${props => props.wid};
     @media (min-width: 1370px) {
     font-size: 2.5rem;
+  }
+    @media (min-width: 320px) and (max-width: 560px) {
+      font-size: 1.2rem;
+      word-spacing: 1px;
+      letter-spacing: 1px;
+      margin: 0;
   }
 `
 
@@ -71,6 +101,11 @@ const SecondDiv = styled.div`
     justify-content: center;
     align-items: flex-end;
     margin-right: 1rem;
+    @media (min-width: 320px) and (max-width: 560px) {
+      align-items: center;
+      align-self: flex-start;
+      margin: 1rem 0 0 0;
+  }
 `
 
 const ImgContainer = styled.div`
@@ -81,6 +116,11 @@ const ImgContainer = styled.div`
     height: 450px;
     @media (min-width: 1370px) {
     height: 600px;
+  }
+  @media (min-width: 320px) and (max-width: 560px) {
+      height: 200px;
+      width: 200px;
+      background-image: url(${mobileImg});
   }
 `
 
@@ -94,6 +134,9 @@ const LinesCont = styled.div`
     top: ${props => props.top};
     bottom: 0;
     z-index: 10;
+    @media (min-width: 320px) and (max-width: 560px) {
+      display: none;
+    }
 `
 
 const OneLine = styled.div`
