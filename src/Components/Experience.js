@@ -37,7 +37,7 @@ const Experience = () => {
 
     return(
         <div>
-            <Container smpadd={"0"}>
+            <Container smpadd={"0"} vh={"100%"} >
                 <EducationWrapper flex={"start"} margin={"2rem 0 0 4rem"}>
                     <Heading>Experience</Heading>
                     <EducationItem>

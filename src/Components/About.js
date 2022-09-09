@@ -7,7 +7,7 @@ const About = () => {
     return(
         <div>
         <Container smpadd={"4rem 0"}>
-            <SecondWrapper hght={"100%"} mar={"7rem 0 0 8rem"} smmar={"1rem 0 0 0"}>
+            <SecondWrapper hght={"100%"} mar={"7rem 0 0 8rem"} smmar={"0"}>
                 <AboutImg img={`url(${aboutImg})`} wid={"500px"} hght={"200px"} smwid={"300px"} smhg={"120px"} mdwid={"400px"} mdhg={"150px"}  />
             </SecondWrapper>
             <AboutWrapper>

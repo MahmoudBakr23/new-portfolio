@@ -16,9 +16,10 @@ const Container = styled.div`
     left: 0;
     @media (min-width: 320px) and (max-width: 560px) {
       flex-direction: column-reverse;
-      justify-content: center;
+      justify-content: start;
       position: static;
       padding: ${props => props.smpadd};
+      height: ${props => props.vh};
     }
 `
 
@@ -31,7 +32,7 @@ const HomeDiv = styled.div`
     width: 100%;
     @media (min-width: 320px) and (max-width: 560px) {
       align-self: center;
-      margin: 2rem 0 0 0;
+      margin: 4rem 0 0 0;
       align-items: center;
       text-align: center;
     }
@@ -69,6 +70,7 @@ const NameHeading = styled.h1`
       text-align: center;
       width: 100%;
       height: fit-content;
+      margin: 0.5rem 0 1rem 0;
   }
 `
 
@@ -96,14 +98,13 @@ const SecondDiv = styled.div`
     flex-direction: column;
     z-index: 11;
     width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: flex-end;
     margin-right: 1rem;
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: center;
       align-self: flex-start;
-      margin: 1rem 0 0 0;
+      margin: 2rem 0 0 0;
   }
 `
 

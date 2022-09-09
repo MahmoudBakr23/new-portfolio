@@ -13,7 +13,7 @@ const AboutWrapper = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: center;
       align-self: flex-start;
-      margin: 1rem 0 0 0;
+      margin: 4rem 0 0 0;
       text-align: center;
   }
 `

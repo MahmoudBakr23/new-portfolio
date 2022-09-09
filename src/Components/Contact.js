@@ -8,7 +8,7 @@ import { Name, NameDiv, FormBtn, FormDiv, Message } from "./Styles/Contact.style
 const Contact = () => {
     return(
         <div>
-            <Container right>
+            <Container right vh={"100%"} >
             <EducationWrapper flex={"center"} margin={"10rem 0 0 8rem"}>
                 <Heading>Contact Me</Heading>
                 <EducationItem>

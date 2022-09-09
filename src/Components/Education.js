@@ -7,7 +7,7 @@ import eduImg from '../edu.png';
 const Education = () => {
     return(
         <div>
-            <Container right smpadd={"3rem 0"}>
+            <Container right smpadd={"3rem 0"} vh={"100%"} >
             <EducationWrapper flex={"center"} margin={"6rem 0 0 6rem"}>
                 <Heading>EDUCATION</Heading>
                 <EducationItem>
