@@ -21,6 +21,9 @@ const Container = styled.div`
       padding: ${props => props.smpadd};
       height: ${props => props.vh};
     }
+    @media (min-width: 561px) and (max-width: 1015px) {
+      justify-content: start;
+    }
 `
 
 const HomeDiv = styled.div`
@@ -36,6 +39,11 @@ const HomeDiv = styled.div`
       align-items: center;
       text-align: center;
     }
+    @media (min-width: 561px) and (max-width: 1015px) {
+      margin: 4rem 2rem 0 2rem;
+      align-items: center;
+      align-self: center;
+    }
 `
 
 const PorText = styled.h3`
@@ -50,6 +58,9 @@ const PorText = styled.h3`
   }
   @media (min-width: 320px) and (max-width: 560px) {
       font-size: 1.1rem;
+  }
+  @media (min-width: 561px) and (max-width: 1015px) {
+      font-size: 1rem;
   }
 `
 
@@ -72,6 +83,10 @@ const NameHeading = styled.h1`
       height: fit-content;
       margin: 0.5rem 0 1rem 0;
   }
+  @media (min-width: 561px) and (max-width: 1015px) {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+  }
 `
 
 const SubHeading = styled.h2`
@@ -90,10 +105,13 @@ const SubHeading = styled.h2`
       margin: 0;
       padding: 0 1rem;
   }
+  @media (min-width: 561px) and (max-width: 1015px) {
+      font-size: 1.2rem;
+  }
 `
 
 const SecondDiv = styled.div`
-    align-self: flex-end;
+    align-self: center;
     display: flex;
     flex-direction: column;
     z-index: 11;
@@ -104,6 +122,11 @@ const SecondDiv = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       align-items: center;
       align-self: flex-start;
+      margin: 2rem 0 0 0;
+  }
+  @media (min-width: 561px) and (max-width: 1015px) {
+      align-items: center;
+      align-self: center;
       margin: 2rem 0 0 0;
   }
 `
@@ -122,6 +145,10 @@ const ImgContainer = styled.div`
       width: 200px;
       background-image: url(${mobileImg});
   }
+  @media (min-width: 561px) and (max-width: 1015px) {
+      width: 300px;
+      height: 350px;
+  }
 `
 
 const LinesCont = styled.div`
@@ -137,6 +164,12 @@ const LinesCont = styled.div`
     @media (min-width: 320px) and (max-width: 560px) {
       display: none;
     }
+    @media (min-width: 561px) and (max-width: 1015px) {
+      margin: ${props => props.mdmar};
+      height: ${props => props.mdhght};
+      right: ${props => props.mdright};
+      top: ${props => props.mdtop};
+  }
 `
 
 const OneLine = styled.div`
