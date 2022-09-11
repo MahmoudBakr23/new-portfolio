@@ -6,7 +6,7 @@ import Header from './Header.js';
 const About = () => {
     return(
         <div>
-        <Container smpadd={"4rem 0"} vh={"100vh"} pos={"fixed"} dir={"column-reverse"}>
+        <Container smpadd={"4rem 0"} vh={"100vh"} pos={"fixed"} middir={"column-reverse"}>
             <SecondWrapper hght={"100%"} mar={"7rem 0 0 8rem"} smmar={"0"}>
                 <AboutImg img={`url(${aboutImg})`} wid={"500px"} hght={"200px"} smwid={"300px"} smhg={"120px"} mdwid={"400px"} mdhg={"150px"}  />
             </SecondWrapper>
@@ -16,7 +16,7 @@ const About = () => {
                     Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out
                 </SubHeading>
             </AboutWrapper>
-            <LinesCont mar={"0 6rem"} hght={"35%"} right={"0"} top={"0"}>
+            <LinesCont mar={"0 6rem"} hght={"35%"} right={"0"} top={"0"} mdmar={"0 3rem"} mdhght={"25%"} mdright={"0"} mdtop={"0"} >
                 <OneLine />
                 <OneLine />
                 <OneLine />

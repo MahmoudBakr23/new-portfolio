@@ -24,6 +24,9 @@ const Container = styled.div`
     @media (min-width: 561px) and (max-width: 1015px) {
       justify-content: start;
     }
+    @media (min-width: 320px) and (max-width: 1015px) {
+      flex-direction: ${props => props.middir};
+  }
 `
 
 const HomeDiv = styled.div`
@@ -169,7 +172,7 @@ const LinesCont = styled.div`
       height: ${props => props.mdhght};
       right: ${props => props.mdright};
       top: ${props => props.mdtop};
-  }
+    }
 `
 
 const OneLine = styled.div`
