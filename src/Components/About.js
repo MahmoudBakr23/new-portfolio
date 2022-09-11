@@ -13,7 +13,8 @@ const About = () => {
             <AboutWrapper>
                 <Heading smmar={"2rem 0 0 0"} >ABOUT ME</Heading>
                 <SubHeading tight size={"1rem"}>
-                    Hi, My name is Mahmoud Bakr and I am a 23 years old full stack developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out of your pants by amazingry developer who will knock you out
+                    Hello!👋
+                    My name is Mahmoud, and I'm a 23 years old full stack developer who is highly skilled and experienced in Ruby on Rails and React frameworks, problem solving, and ready to take your ideas out to the world!<span style={{display: 'hidden'}}>Making people's lives easier is a concern, but mine is a priority.</span>
                 </SubHeading>
             </AboutWrapper>
             <LinesCont mar={"0 6rem"} hght={"35%"} right={"0"} top={"0"} mdmar={"0 3rem"} mdhght={"25%"} mdright={"0"} mdtop={"0"} >
